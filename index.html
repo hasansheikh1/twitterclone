@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- sidebar start -->
+
+<div class="sidebar">
+
+ <i class="fab fa-twitter"></i>
+
+ <div class="sidebaroption active">
+    <span class="material-icons">home</span>
+    <h2>Home</h2>
+ </div>
+
+ <div class="sidebaroption ">
+    <span class="material-icons">search </span>
+    <h2>Explore</h2>
+ </div>
+
+ <div class="sidebaroption">
+    <span class="material-icons">notifications_none </span>
+    <h2>Notifications</h2>
+ </div>
+
+ <div class="sidebaroption">
+    <span class="material-icons">email</span>
+    <h2>Messages</h2>
+ </div>
+
+ <div class="sidebaroption ">
+    <span class="material-icons">bookmark_border</span>
+    <h2>Bookmarks</h2>
+ </div>
+
+ <div class="sidebaroption">
+    <span class="material-icons">list </span>
+    <h2>List</h2>
+ </div>
+
+ <div class="sidebaroption ">
+    <span class="material-icons"> perm_identity </span>
+    <h2>Profile</h2>
+ </div>
+
+ <div class="sidebaroption">
+    <span class="material-icons">more_horiz </span>
+    <h2>More</h2>
+ </div>
+<button class="sidebar__tweet">Tweet</button>
+
+</div>
+<!-- sidebar ends -->
+
+<!-- feed starts -->
+<div class="feed">
+
+<div class="feed__header">
+    <h2>Home</h2>
+</div>
+<!-- tweetbox starts -->
+<div class="tweetbox">
+<form>
+    <div class="tweetbox__input">
+        <img src="./assests/man.png" alt="Profi"/>
+        <input type="text" class="whats" placeholder="What's happening?"/>
+    </div>
+<button class="tweetbox__tweetbutton">Tweet</button>
+</form>
+
+</div>
+<!-- tweetbox ends -->
+
+<!-- post start -->
+<div class="post">
+   <div class="post__avatar">
+      <img src="./assests/man.png" alt="posthead">
+   </div>
+
+   <div class="post__body">
+      <div class="post__header">
+      <div class="post__headertext">
+         <h3>Hasan Sheikh
+         <span class="post__headerspecial">
+            <span class="material-icons post__badge">verified</span>@hasan_sheikh
+         </span>
+      </h3>
+      </div>
+      <div class="post__headerdescription">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+   </div>
+
+   <!-- post-image -->
+   <img src="./assests/sample.jpg" alt="pic"/>
+
+   <div class="post__footer">
+      <span class="material-icons">repeat</span>
+      <span class="material-icons">favorite_border</span>
+      <span class="material-icons">publish</span>
+</div>
+
+</div>
+</div>
+<!-- post ends -->
+
+<!-- post start -->
+<div class="post">
+   <div class="post__avatar">
+      <img src="./assests/man.png" alt="posthead">
+   </div>
+
+   <div class="post__body">
+      <div class="post__header">
+      <div class="post__headertext">
+         <h3>Hasan Sheikh
+         <span class="post__headerspecial">
+            <span class="material-icons post__badge">verified</span>@hasan_sheikh
+         </span>
+      </h3>
+      </div>
+      <div class="post__headerdescription">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+   </div>
+
+   <!-- post-image -->
+   <img src="./assests/sample.jpg" alt="pic"/>
+
+   <div class="post__footer">
+      <span class="material-icons">repeat</span>
+      <span class="material-icons">favorite_border</span>
+      <span class="material-icons">publish</span>
+</div>
+
+</div>
+</div>
+<!-- post ends -->
+
+
+</div>
+<!-- feed ends -->
+<!-- widget starts -->
+
+<div class="widgets">
+   <div class="widgets__input">
+      <span class="material-icons widgets__searchicon">search</span>
+      <input type="text" placeholder="Search twitter">
+   </div>
+<div class="widgets__widgetcontainer">
+   <h2>What's happening?</h2>
+   <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/SXKc1jJwmw">pic.twitter.com/SXKc1jJwmw</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1507596559831101446?ref_src=twsrc%5Etfw">March 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+</div>
+
+<!-- widget ends -->
+</body>
+</html>
